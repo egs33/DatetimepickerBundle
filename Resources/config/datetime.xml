@@ -11,7 +11,7 @@
     <services>
 
         <service id="sc_datetimepicker.form.type.datetime" class="SC\DatetimepickerBundle\Form\Type\DatetimeType">
-            <tag name="form.type" extended-type="Symfony\Component\Form\Extension\Core\Type\CollotDatetimeType" />
+            <tag name="form.type" />
             <argument>%sc_datetimepicker.form.options%</argument>
         </service>
         
